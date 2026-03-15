@@ -3,10 +3,10 @@ import path from 'path';
 import os from 'os';
 
 const CONFIG_PATH = path.join(os.homedir(), '.devsnap', 'config.json');
-const DEFAULT_URL = 'http://localhost:3001';
+const DEFAULT_URL = 'https://devsnap-production.up.railway.app';
 
 export function readConfig() {
-  try {
+  try { 
     return JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
   } catch {
     return { apiKey: null, backendUrl: DEFAULT_URL };
