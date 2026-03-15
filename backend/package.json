@@ -1,0 +1,22 @@
+{
+  "name": "devsnap-backend",
+  "version": "1.0.0",
+  "description": "devsnap backend API",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "db:migrate": "npx prisma migrate deploy",
+    "db:generate": "npx prisma generate",
+    "db:studio": "npx prisma studio"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.0.0",
+    "axios": "^1.6.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "prisma": "^5.0.0"
+  }
+}

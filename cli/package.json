@@ -1,0 +1,32 @@
+{
+  "name": "@harshcode/devsnap",
+  "version": "1.0.2",
+  "description": "Capture and diff your dev environment",
+  "type": "module",
+  "bin": {
+    "devsnap": "src/index.js"
+  },
+  "author": "Harsh Kumar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hars310/devsnap.git"
+  },
+  "homepage": "https://github.com/hars310/devsnap#readme",
+  "keywords": [
+    "cli",
+    "devtools",
+    "environment",
+    "snapshot",
+    "diff"
+  ],
+  "dependencies": {
+    "commander": "^12.0.0",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "axios": "^1.6.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
