@@ -1,6 +1,6 @@
 {
   "name": "@harshcode/devsnap",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Capture and diff your dev environment",
   "type": "module",
   "bin": {

@@ -265,7 +265,7 @@ node src/index.js list
 
 ## Live Links
 
-- 🌐 **Dashboard:** _add your Vercel URL here_
+- 🌐 **Dashboard:** [devsnap-frontend.vercel.app](https://devsnap-frontend.vercel.app)
 - 📦 **npm:** [npmjs.com/package/@harshcode/devsnap](https://www.npmjs.com/package/@harshcode/devsnap)
 - 💻 **GitHub:** [github.com/hars310/devsnap](https://github.com/hars310/devsnap)
 
