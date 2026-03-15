@@ -299,7 +299,7 @@ export default function HomePage({ onAuthenticated }) {
               number="2"
               title="Register and get your API key"
               description="Send one POST request to get your personal API key. Keep it — you'll need it to authenticate."
-              code={`curl -X POST https://devsnap-backend.up.railway.app/api/auth/register -H "Content-Type: application/json" -d "{\\"email\\":\\"you@example.com\\"}"`}
+              code={`curl -X POST https://devsnap-production.up.railway.app/api/auth/register -H "Content-Type: application/json" -d "{\\"email\\":\\"you@example.com\\"}"`}
             />
             <Step
               number="3"
