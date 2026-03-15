@@ -1,15 +1,19 @@
 #!/usr/bin/env node
 
 import { program } from 'commander';
+import { createRequire } from 'module';
 import { captureCommand } from './commands/capture.js';
 import { diffCommand } from './commands/diff.js';
 import { listCommand } from './commands/list.js';
 import { authCommand } from './commands/auth.js';
 
+const require = createRequire(import.meta.url);
+const { version } = require('../package.json');
+
 program
   .name('devsnap')
   .description('Capture and diff your dev environment')
-  .version('1.0.0');
+  .version(version);
 
 program.command('capture')
   .description('Snapshot current environment')
@@ -29,7 +33,7 @@ program.command('diff <id1> <id2>')
 program.command('auth')
   .description('Save your API key')
   .requiredOption('-k, --key <key>', 'Your devsnap API key')
-  .option('--url <url>', 'Backend URL', 'https://your-railway-url.up.railway.app')
+  .option('--url <url>', 'Backend URL', 'https://devsnap-production.up.railway.app')
   .action(authCommand);
 
 program.parse();
