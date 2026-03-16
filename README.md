@@ -4,8 +4,6 @@
 
 One command snapshots your full environment — runtimes, packages, env keys, git state, open ports. Any two snapshots can be diffed to show exactly what changed. Share diffs via a link.
 
-> Built as a portfolio project demonstrating CLI tooling, REST API design, semantic diff engines, and full-stack deployment.
-
 ---
 
 ## Demo
