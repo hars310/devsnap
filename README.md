@@ -10,7 +10,7 @@ One command snapshots your full environment — runtimes, packages, env keys, gi
 
 ## Demo
 
-> 📸 _Add a screenshot or GIF of the dashboard here before publishing_
+![DevSnap Dashboard](devsnap-frontend.vercel.app.png)
 
 ---
 
